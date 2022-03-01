@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    text-align: center;
+    background: #f9fafb;
+    padding: 20px;
+}
+
+h1{
+    font-weight: 800;
+}
+
+h3{
+    font-size: .87rem;
+    font-weight: 500;
+}
+
+.blue{
+    color: #6366f1;
+    cursor: pointer;
+}
+
+.loginnote{
+    padding-top: 20px;
+}
+
+.form{
+    background: #fff;
+    box-shadow: rgb(99, 99, 99, .2) 0px 2px 8px 0px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-input{
+    margin-top: 30px;
+}
+
+.textField{
+    padding: .5rem .75rem;
+    border: 1px solid #d1d5db;
+    display: block;
+    width: 100%;
+    color: #111827;
+    font-size: 1rem;
+    line-height: inherit;
+    margin: 0;
+    caret-color: #4f46e5;
+}
+
+.textField:nth-child(1){
+    border-top-left-radius: .37rem;
+    border-top-right-radius: .37rem;
+}
+
+.textField:nth-child(2){
+    border-bottom-left-radius: .37rem;
+    border-bottom-right-radius: .37rem;
+}
+
+.textField:focus{
+    outline: 2px solid #4f46e5;
+}
+
+.form-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0px;
+}
+
+a{
+    color: #4f46e5;
+}
+
+.submit{
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-size: .87rem;
+    line-height: 1.25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background: #4f46e5;
+    color: #fff;
+    border: none;
+    border-radius: .37rem;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background: #4338ca;
+}
+
+.submit:active{
+    background: #3730a3
+}
